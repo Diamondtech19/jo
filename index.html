@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        COMPANY
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Jovian Logo"
+            src="https://bookface-images.s3.amazonaws.com/logos/9c630503bfaf09e017d40c97dae09e6521a73c2d.png" />
+    </div>
+    <img id="banner" src="banner.jpg" alt="banner" height="300">
+    <h1>
+        About Jovian
+    </h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At Jovian, we're on a mission to build the world's most highly reputed
+                techinical university, and we're building it completely online. We offer
+                several beginner friendly courses that are taken by 300,000+ registered
+                users.
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="Team.jpg" alt="banner" height="250">
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Lagos</td>
+                <td>Nigeria</td>
+                <td>#400,000</td>
+                <td>June 1, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Full stack Developer</td>
+                <td>Ogun</td>
+                <td>Nigeria</td>
+                <td>#500,000</td>
+                <td>Aug 1, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>Abuja</td>
+                <td>Nigeria</td>
+                <td>#750,000</td>
+                <td>Feb 1, 2024</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2"> Remote</td>
+                <td>#550,000</td>
+                <td>May 2, 2024</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+
+
+        <form 
+            action="mailto:todafolabi@gmail.com" 
+            method="POST" 
+            enctype="multipart/form-data"
+        >
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="phone" id="phone" name="phone" required placeholder="+2348100000000">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="phone" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select Positioon</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="fullstack developer">Full Stack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ml engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="Resume" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Cover Letter">Cover Letter</label><br>
+                <textarea id="cover letter" name="cover letter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+
+    </div>
+
+    </form>
+
+    </div>
+    <div class="footer">
+        <p>Copyright © 2024, Jovian</p>
+    </div>
+    </div>
+</body>
